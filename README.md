@@ -1,4 +1,11 @@
-# Food-Printing-Quality-Calculator (README in English & Português)
+# Food Printing Quality Calculator (README in English & Português)
+<!-- Badges -->
+![Version](https://img.shields.io/github/v/tag/larissachlopes/Food-Printing-Quality-Calculator?label=version&color=blue)
+![Platform](https://img.shields.io/badge/platform-Windows-blueviolet)
+![Tech](https://img.shields.io/badge/built%20with-React%20%7C%20Electron%20%7C%20JavaScript-9cf)
+![Downloads](https://img.shields.io/github/downloads/larissachlopes/Food-Printing-Quality-Calculator/total?color=brightgreen)
+![Status](https://img.shields.io/badge/status-Stable-success)
+![License](https://img.shields.io/badge/license-Software%20Registered%20%2F%20Proprietary-red)
 
 The Food Printing Quality Calculator is a desktop application designed to evaluate the quality of 3D-printed foods. It integrates multiple printing parameters, structural assessments, and automated recommendations to standardize and improve evaluation processes in food 3D printing.
 
