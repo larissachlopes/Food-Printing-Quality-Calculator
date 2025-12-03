@@ -14,7 +14,7 @@ It integrates structural, dimensional, extrusion, and printing-process parameter
 
 ---
 
-# ✨ Key Features
+## ✨ Key Features (highlights)
 
 - **Quality scoring across 7 critical parameters**:  
   Dimensional accuracy, layer adhesion, extrusion consistency, structural quality, surface finish, fill uniformity, and print precision.
@@ -25,80 +25,58 @@ It integrates structural, dimensional, extrusion, and printing-process parameter
 - **Selectable samples**: generate PDF, CSV or charts only for chosen entries.
 - **Editable parameter weights** + presets (Balanced, Quality, Speed) + Normalize Weights.
 - **Multilingual interface** (English & Portuguese).
-- **Portable desktop application (.exe)** included in Releases.
+- **Photo support** (v2.1.0): upload a photo per sample, thumbnail preview in history, view original image in separate window, and cleanup tool to remove unused photos.
+- **Windows installer (.exe)** included in Releases.
 
 ---
 
-# 📥 Download
+## 📥 Download
 
-Download the latest **Windows .exe** under the **Releases** tab.
+Download the latest **Windows .exe** under the **Releases** tab of this repository.
 
 ---
 
-# 📄 Intellectual Property
+## ✅ How to verify the installer (recommended)
 
-This software is protected under Brazilian Law **9.609/1998** as a Registered Computer Program, officially filed as:
+Because this app is not signed with a code-signing certificate, Windows SmartScreen may show a "publisher unknown" warning. To increase safety and transparency, we publish a SHA-256 checksum for each release.
 
-**📌 “Calculadora de Qualidade de Impressão 3D de Alimentos”  
-FURG / OCEANTEC – Institutional Registration**
+To generate/verify the checksum locally (PowerShell):
+# on the machine where you downloaded the installer
+Get-FileHash -Algorithm SHA256 .\FoodPrintingInstaller.exe | Format-List
+Compare the Hash value with the SHA-256 value published on the Release page. If they match, the file is authentic.
+If SmartScreen shows a warning, you can:
+Click More info → Run anyway, or
+Right-click the downloaded file → Properties → Unblock → OK, then run it.
 
+---
+
+## 📄 Intellectual Property
+
+This software is protected under Brazilian Law 9.609/1998 as a Registered Computer Program, officially filed as:
+📌 “Calculadora de Qualidade de Impressão 3D de Alimentos”
+FURG / OCEANTEC – Institutional Registration
 Commercial distribution, modification, or sublicensing requires prior written authorization from the authors and/or the Intellectual Property Office of FURG.
 
 ---
 
-# 👥 Authors / Inventors  
-
-**LOPES, L. C.; COSTA, J. A. V.; ROSA, G. M.**
-
-For questions, licensing, collaborations, or research use:  
-📧 **larissachlopes@gmail.com**
+## 👥 Authors / Inventors
+LOPES, L. C.; COSTA, J. A. V.; ROSA, G. M.
+For questions, licensing, collaborations, or research use:
+📧 larissachlopes@gmail.com
 
 ---
 
----
-
-# 🇧🇷 Versão em Português
-
-A **Calculadora de Qualidade de Impressão 3D de Alimentos** é um software desktop desenvolvido para avaliar, de forma padronizada, a qualidade de alimentos impressos em 3D.  
-Ele integra parâmetros estruturais, dimensionais e de processo em um único sistema de pontuação, oferecendo também recomendações técnicas automáticas.
+## 🇧🇷 Versão em Português — resumo
+A Calculadora de Qualidade de Impressão 3D de Alimentos é um aplicativo desktop para avaliação padronizada da qualidade de alimentos impressos em 3D.
 
 ---
 
-# ✨ Funcionalidades Principais
-
-- **Avaliação por 7 parâmetros críticos**:  
-  precisão dimensional, adesão entre camadas, consistência da extrusão, qualidade estrutural, acabamento superficial, uniformidade do preenchimento e precisão de impressão.
-- **Cálculo de pontuação final ponderada** com classificação: *Insatisfatória, Regular, Boa, Excelente*.
-- **Recomendações técnicas automáticas** baseadas nos pontos fracos detectados.
-- **Histórico de amostras** com tabelas, filtros e gráficos.
-- **Exportação em PDF** com relatório completo (pontuações, pesos, parâmetros e metadados).
-- **Seleção de amostras específicas** para PDF, CSV ou gráficos.
-- **Personalização dos pesos dos parâmetros**, com presets (Equilíbrio, Qualidade, Velocidade) e normalização automática.
-- **Interface bilíngue** (Português e Inglês).
-- **Arquivo executável (.exe)** disponível para download.
+## ✨ Funcionalidades principais
+Avaliação por 7 parâmetros críticos (precisão dimensional, adesão entre camadas, consistência da extrusão, qualidade estrutural, acabamento superficial, uniformidade do preenchimento, precisão de impressão).
+Exportação de relatórios em PDF, histórico de amostras, seleção múltipla, presets de pesos e interface bilíngue.
+Novo (v2.1.0): upload de foto por amostra, miniatura no histórico, visualização da imagem original e ferramenta para limpar fotos não referenciadas.
 
 ---
 
-# 📥 Download
-
-A versão mais recente (.exe) está disponível na aba **Releases**.
-
----
-
-# 📄 Propriedade Intelectual
-
-O software é protegido conforme a Lei **9.609/1998**, registrado oficialmente como:
-
-**📌 “Calculadora de Qualidade de Impressão 3D de Alimentos”  
-FURG / OCEANTEC – Registro Institucional**
-
-Seu uso comercial, modificação ou redistribuição requer autorização prévia dos autores e/ou do Escritório de Propriedade Intelectual da FURG.
-
----
-
-# 👥 Autores / Inventores
-
-**LOPES, L. C.; COSTA, J. A. V.; ROSA, G. M.**
-
-Para dúvidas, colaboração, licenciamento ou uso acadêmico:  
-📧 **larissachlopes@gmail.com**
+## Download e verificação
+A versão mais recente (.exe) está na aba Releases. Recomendamos verificar o hash SHA-256 publicado no Release antes de executar o instalador.
